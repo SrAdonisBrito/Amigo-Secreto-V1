@@ -1,12 +1,7 @@
-let listaNombresAmigos =[];
-let nombresHTML = 0;
+let listaAmigos =[];
+let nombresAmigos = document.getElementById("amigos");
 
 //Funcion para recibir los nombre escritos.
-function nombresAmigos () {
-    nombresAmigos = document.querySelector("#nombre");
-    nombresAmigos = nombresAmigos.value;
-    return;
-}
-
-nombresAmigos();
-console.log(nombresAmigos);
+function agregarAmigos () {
+    
+};
