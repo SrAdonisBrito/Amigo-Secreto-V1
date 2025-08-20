@@ -4,6 +4,11 @@ let nombresAmigos = document.getElementById("amigo");
 let mostrarListaAmigos = document.getElementById("listaAmigos");
 let resultado = document.getElementById("resultado");
 
+//Funcion para limpiar el texto en el imput.
+function limpiarCaja() {
+    document.querySelector("#amigo").value = "";
+};
+
 //Funcion para recibir los nombre escritos.
 function agregarAmigo() {
     if (!nombresAmigos.value){
@@ -12,6 +17,8 @@ function agregarAmigo() {
 
     listaAmigos.push(nombresAmigos.value);
     mostrarListaAmigos.innerHTML += `<li> ${nombresAmigos.value}</li>`;
+
+    limpiarCaja();
 };
 
 //Funcion adivinar el nombre del amigo.
