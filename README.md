@@ -16,7 +16,7 @@ Ideal como ejercicio de **lógica de programación y manipulación del DOM**.
 ## 🚀 Demo
 
 👉 Puedes probar el proyecto aquí:  
-[**🔗 Ver en GitHub Pages**](https://TU_USUARIO.github.io/Lista-Amigos/)  
+[**🔗 Ver en GitHub Pages**](https://sradonisbrito.github.io/Amigo-Secreto-V1/)  
 
 ---
 
